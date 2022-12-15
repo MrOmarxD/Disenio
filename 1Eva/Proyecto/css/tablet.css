@@ -1,0 +1,37 @@
+@media (min-width: 768px) and (max-width: 1024px){
+    /* GENERAL */
+    #bomBot{
+        display: block;
+    }
+    /* MAIN */
+        /* CONTACTO */
+        #main-contacto{
+            padding: 1em 4em;
+        }
+        .contenido{
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+
+        }
+        .contenido > *{
+            padding: 2em;
+        }
+        .info-contacto h4,
+        .info-contacto ul,
+        .info-contacto p{
+            padding: 1em;
+            text-align: left;
+        }
+        /* AGENTES */
+        .contenedor-agentes{
+            grid-template-columns: repeat(4,1fr);
+        }
+        .contenedor-agentes a:nth-of-type(1){grid-column: 1/2;}
+        .contenedor-agentes a:nth-of-type(2){grid-column: 2/3;}
+        .contenedor-agentes a:nth-of-type(3){grid-column: 3/4;}
+        .contenedor-agentes a:nth-of-type(4){grid-column: 4/5;}
+        .contenedor-agentes a:nth-of-type(5){grid-column: 1/2;}
+        .contenedor-agentes a:nth-of-type(6){grid-column: 2/3;}
+        .contenedor-agentes a:nth-of-type(7){grid-column: 3/4;}
+        .contenedor-agentes a:nth-of-type(8){grid-column: 4/5;}
+}

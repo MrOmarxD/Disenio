@@ -1,0 +1,21 @@
+div{
+    background-color: lightgray;
+    margin: 0 auto;
+}
+.block{
+    background-color: lightgreen;
+    display: block;
+	width: 100px;
+	height: 80px;
+    text-align: center;
+    margin-top: 5px;
+}
+.inline{
+    background-color: lightblue;
+    display: inline;
+}
+.inline-block{
+    background-color: lightpink;
+    display: inline-block;
+    padding: 5px;
+}

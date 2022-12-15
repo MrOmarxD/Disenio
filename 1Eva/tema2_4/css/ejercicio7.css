@@ -1,0 +1,59 @@
+*{
+    font-family: Verdana;
+    color:navy;
+    font-size: .8em;
+}
+#capapadre{
+    background-color: #CCF;
+    border: solid #9933ff;
+    position: relative;
+    width: 450px;
+    height: 400px;
+    margin: 0 auto;
+}
+#capahija1{
+    background-color: #6CF;
+    border: solid blue;
+    position: absolute;
+    z-index: 1;
+    width: 350px;
+    height: 320px;
+    top: 60px;
+    left: 40px;
+}
+#capahija2{
+    background-color: #FCF;
+    border: solid purple;
+    position: absolute;
+    z-index: 2;
+    width: 180px;
+    height: 250px;
+    top: 120px;
+    left: 60px;
+}
+#capahija3{
+    background-color: transparent;
+    border: solid blue;
+    position: absolute;
+    z-index: 4;
+    width: 200px;
+    height: 100px;
+    bottom: 20px;
+    right: 60px;
+}
+#capahija4{
+    background-color: grey;
+    border: solid red;
+    position: absolute;
+    z-index: 3;
+    width: 130px;
+    height: 140px;
+    top: 120px;
+    right: 60px;
+}
+p{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}

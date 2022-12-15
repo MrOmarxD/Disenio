@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+}
+h1>span{
+    color: red;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+#c1{
+    background-color: red;
+}
+#c2{
+    background-color: blue;
+    position: absolute;
+    top: 90px;
+    left: 150px;
+}
+#c3{
+    background-color: green;    
+}
+#c4{
+    background-color: yellow;
+}
+span:not(h1>span), div{
+    width: bold;
+    border: thick solid black;
+}
+span:not(h1>span){
+    padding: 20px;
+    font-size: 2em;
+}
+div{
+    position: relative;
+    background-color: lightblue;
+    padding: 40px;
+    height: 200px;
+}

@@ -1,0 +1,8 @@
+@media print {
+    *{
+        color: black;
+    }
+    #videoIntro, .logo, img{
+        display: none;
+    }
+}

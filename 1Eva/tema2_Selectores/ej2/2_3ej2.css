@@ -1,0 +1,40 @@
+body {
+  padding: 1em 2em;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+}
+li {
+  text-align: center;
+  line-height: 2;
+  background: slategrey;
+}
+div {
+  width: 12em;
+  float: left;
+  margin-right: 2em;
+}
+hr {
+  clear: both;
+  padding-top: 1em;
+  border: 0;
+  border-bottom: 1px solid grey;
+}
+
+div:nth-child(1) li:first-child{
+  background: lightsteelblue;
+}
+
+.dos{
+  color: red;
+}
+
+div:nth-child(2) :nth-child(2) li:nth-child(3){
+  background: lightsteelblue;
+}
+
+div:nth-child(3) :nth-child(odd) li:nth-child(-n+3){
+  background: lightsteelblue;
+}

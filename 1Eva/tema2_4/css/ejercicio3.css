@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+}
+h1>span{
+    color: red;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+#c1{
+    background-color: red;
+    padding: 20px;
+    font-size: 2em;
+}
+#c2{
+    background-color: blue;
+    position: relative;
+    top: 60px;
+    right: 100px;
+    padding: 20px;
+    font-size: 2em;
+}
+#c3{
+    background-color: green;
+    position: relative;
+    padding: 20px;
+    font-size: 2em;
+}
+#c4{
+    background-color: yellow;
+    position: relative;
+    top: 60px;
+    right: 100px;
+    padding: 20px;
+    font-size: 2em;
+}
+span:not(h1>span){
+    width: bold;
+    border: thick solid black;
+}

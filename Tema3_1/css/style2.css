@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align:center;
+    background-color:#252525;
+} 
+.container-fluid{
+    width:100%;
+}
+.container{
+    width:100%;
+    margin:auto;
+    padding: 1em ;
+} 
+.parallax{
+    height: 500px;
+    background-image:url('https://c.pxhere.com/images/47/ae/11a10b1058798517733f64a13bab-1417155.jpg!d');
+    background-size:cover;
+    background-attachment: fixed;
+}

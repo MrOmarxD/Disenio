@@ -1,0 +1,38 @@
+#contenedor{
+    background-color: lightcyan;
+    width: 620px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+#css{
+    background-color: lightgray;
+    width: 350px;
+    font-size: 200px;
+    position: absolute;
+    top: 250px;
+    left: 120px;
+    color: blue;
+    font-family: Algerian;
+    z-index: 1;
+}
+#efectos{
+    font-size: 70px;
+    color: #ff00ff;
+    font-family: Arial;
+    position: absolute;
+    top: 230px;
+    left: 40px;
+    z-index: 2;
+}
+#hojas{
+    font-size: 90px;
+    color: red;
+    font-family: Arial;
+    position: absolute;
+    top: 255px;
+    left: 40;
+    z-index: 3;
+}

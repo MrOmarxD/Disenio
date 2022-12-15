@@ -1,0 +1,36 @@
+*{
+    font-size: 1.5em;
+    line-height: 2em;
+    font-family: Verdana, Arial, sans-serif;
+    background-color: lightgray;
+    text-align: justify;
+    text-indent: 60px;
+}
+em{
+    font-style: oblique;
+}
+.especial em{
+    font-style: normal;
+    font-weight: bold;
+}
+strong{
+    font-weight: bold;
+}
+.especial strong{
+    font-weight: normal;
+    font-style: oblique;
+    background-color: #FF6;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    padding: 3px;
+}
+body p:first-child::first-line{
+    color:blue;
+    background-color: lightblue;
+    font-variant: small-caps;
+}
+body p:first-child::first-letter{
+    font-size: 2em;
+    font-family: serif;
+    color:blue;
+}

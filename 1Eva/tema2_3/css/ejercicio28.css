@@ -1,0 +1,164 @@
+/* ===============================================================
+No modificar estos estilos
+================================================================== */
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+li { 
+    list-style: none; 
+}
+body {
+    margin: 0 auto;
+    max-width: 900px;
+    width: 90%;
+}
+header, nav, aside, footer, section, .contenedor {
+    border: 2px solid #777;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+}
+main{
+    display:flex;
+}
+.lateral1 { 
+    width: 20%; 
+}
+.contenedor { 
+    display:flex;
+    width: 80%; 
+}
+section { 
+    width: 80%; 
+}
+.lateral2 { 
+    width: 20%; 
+}
+footer{
+    display:flex;
+    justify-content: space-between;
+}
+nav li { 
+    display: inline; 
+}
+section article img { 
+    float: left; 
+    width: 100px;
+}
+/* ================================================================
+Añade tus estilos aqui
+================================================================== */
+*{
+    font-family: Arial;
+    font-size: .9em;
+    line-height: 1.4em;
+    color: black;
+}
+aside, .contenedor, section, header, nav{
+    border: none;
+}
+header{
+    padding: 1em;
+}
+nav{
+    padding: .5em;
+    margin-bottom: .5em;
+    border-bottom: 1px solid #004C99;
+    background-color: darkblue;
+}
+footer{
+    padding: .5em;
+    margin-top: 1em;
+    background-color: #CCCCCC;
+    border-bottom: 1px solid #C5C5C5;
+    border-top: 1px solid #C5C5C5;
+    color: #555;
+    font-size: .75em;
+}
+.noticias, .publicidad, article{
+    padding: .5em;
+}
+article, .noticias{
+    margin-bottom: .5em;
+}
+img{
+    margin: .5em;
+}
+.publicidad p{
+    margin-top: 1em;
+}
+#Buscar{
+    margin-right: 1em;
+}
+.noticias{
+    border: 1px solid #C5C5C5;
+    background-color: #CCCCCC;
+}
+.publicidad {
+    border: 1px dashed #CC6600;
+    background-color: #FFFF33;
+}
+.lateral2 {
+    border: 1px solid #CC6600;
+}
+.lateral2 h2{
+    padding: .2em;
+    background-color: #DB905C;
+    font-size: 1em;
+    color: #FFF;
+}
+h1{
+    background-image: url(/imagenes/logo1.png);
+    background-position: center;
+    line-height: 1.2em;
+    color: transparent;
+}
+section article h2{
+    color: #CC6600;
+    line-height: 1.2em;
+    font-size: 1.6em;
+    margin-bottom: .3em;
+    word-spacing: .3em;
+}
+nav li{
+    margin-right: 1em;
+}
+nav li a{
+    color: white;
+    font-size: 1.3em;
+    letter-spacing: .3em;
+}
+.lateral1{
+    font-size: .9em;
+}
+.noticias .fecha{
+    text-align: right;
+    white-space: nowrap;
+    color: #999;
+}
+.noticias h2 a{
+    color: #003366;
+}
+.publicidad a{
+    color: #CC6600;
+}
+.publicidad p{
+    color: #555 ;;
+}
+section article a{
+    color:#CC6600 ;
+}
+section article p{
+    margin-top: .3em;
+    margin-bottom: .3em;
+    text-indent: 2em;
+    line-height: 1.8em;
+    text-align: justify;
+}
+section article p::first-letter{
+    font-family: Times New Roman;
+    font-size: 2em;
+}

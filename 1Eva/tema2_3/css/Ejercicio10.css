@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
+ 
+*{
+    color: red;
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 3em;
+}
+div {
+    width: 14%;
+    padding: 1em;
+    height: auto;
+    border-radius: 1em;
+    margin-top: 1em;
+}
+.recuadro1 {
+    font-family: Niconne;
+    background-color: lightgray; 
+}
+.recuadro2 {
+    font-family: 'Barrio', cursive;
+    background-color: lightgray;
+}

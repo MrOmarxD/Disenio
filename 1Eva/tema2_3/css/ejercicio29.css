@@ -1,0 +1,11 @@
+*{
+    white-space: pre;
+}
+main{
+    border: 2.5em solid transparent;
+    padding: 15px;
+    margin: 2em;
+    border-image: url(/imagenes/loremIpsum.png) round;
+    border-image-slice: 14%;
+    background-color: lightpink;
+}

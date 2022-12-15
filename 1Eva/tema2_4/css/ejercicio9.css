@@ -1,0 +1,30 @@
+body{
+    background-image: url("../imagenes/paper.gif");
+}
+h1{
+    color: gray;
+    text-align: center;
+}
+.contenedor{
+    background-color: lightcyan;
+    border: 10px groove lightcyan;
+    width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+img{
+    border: 3px solid white;
+}
+div:not(.contenedor){
+    color: white;
+    text-align: center;
+    width: 215px;
+    height:180px;
+    background-color: lightblue;
+    margin: 10px;
+    display: inline-block;
+    padding: 5px;
+    border-bottom: 3px solid gray;
+    border-right: 3px solid gray;
+}

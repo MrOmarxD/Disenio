@@ -1,0 +1,24 @@
+.recuadro1 {
+    column-count: 3;
+    background-color: lightgray;
+    padding: .5em;
+    margin: .5em;
+    border-radius: 1em;
+    column-rule: 2px solid red;
+}
+.recuadro2 {
+    column-count: 3;
+    background-color: lightgray;
+    padding: .5em;
+    margin: .5em;
+    border-radius: 1em;
+    column-rule: dotted red;
+}
+.recuadro3 {
+    column-count: 3;
+    background-color: lightgray;
+    padding: .5em;
+    margin: .5em;
+    border-radius: 1em;
+    column-rule: dashed blue;
+}

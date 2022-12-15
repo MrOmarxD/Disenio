@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    color: black;
+}
+.especial{
+    color: red;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+p, div, span:not(.especial){
+    color:white;
+    width: bold;
+    border: thick solid black;
+}
+p{
+    background-color: red;
+    width: 25%;
+    height: 75px;
+}
+span:not(.especial){
+    background-color: blue;
+    margin-right: 30px;
+}
+div{
+    background-color: green;
+    width: 25%;
+    height: 75px;
+    margin-top: 12px;
+}
