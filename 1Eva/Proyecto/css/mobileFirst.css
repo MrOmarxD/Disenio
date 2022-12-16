@@ -65,6 +65,10 @@ body{
     text-decoration: none;
     overflow: hidden;
     transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
 }
 .botJugar:hover{
     background: rgba(0, 0, 0, 0.5);
@@ -130,6 +134,10 @@ body{
     transform: translateX(-50%) translateY(-50%);
     min-width: 100vw;
     max-height: 100vh;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
 }
 /* NAVEGADOR */
 #nav{
@@ -175,6 +183,10 @@ body{
     right: 100%;
     transition: right 0.3s;
     background-color: rgba(0, 0, 0, 0.9);
+    -webkit-transition: right 0.3s;
+    -moz-transition: right 0.3s;
+    -ms-transition: right 0.3s;
+    -o-transition: right 0.3s;
 }
 .menu-item{
     font-size: 1em;
