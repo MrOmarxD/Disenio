@@ -1,0 +1,35 @@
+.verde1, .rojo, .rosa, .azul, .naranja, .verde2, .central{
+    border: 1px solid black;
+}
+.pgran{
+    padding:4px;
+}
+.verde1{
+    background-color: chartreuse;
+    height: 40px;
+}
+.rojo{
+    background-color:red;
+    height: 777px;
+}
+.rosa{
+    background-color:pink;
+    height: 40px;
+}
+.azul{
+    background-color:blue;
+    height: 90px;
+}
+.naranja{
+    background-color: orange;
+    height: 160px;
+}
+.verde2{
+    background-color: chartreuse;
+    height: 20px;
+}
+@media (min-width: 992px){
+    .rojo{
+        height: 413px;
+    }
+}
