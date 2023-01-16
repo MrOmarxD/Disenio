@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ejercicio 3</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <link href="css/ejercicio2.css" rel="stylesheet" >
+        <link href="css/ejercicio3.css" rel="stylesheet" >
+    </head>
+    <body>
+        <h1 class="text-center">FORMULARIO</h1>
+        <div>
+            <form action="#" method="post">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <section>
+
+                            <fieldset>
+                                <legend class="mx-4">Primera parte del formulario</legend>
+                                <div class="row m-3">
+                                    <label for="trato" class="col-4 col-lg-12">Trato: </label>
+                                    <div class="col-8 col-lg-12">
+                                        <input id="trato" type="text" name="trato"  class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row m-3">
+                                    <label for="email" class="col-4 col-lg-12">Email: </label>	
+                                    <div class="col-8 col-lg-12">
+                                        <input id="email" name="email" type="email" required autofocus class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="row m-3">
+                                    <label for="url" class="col-4 col-lg-12">URL: </label>
+                                    <div class="col-8 col-lg-12">
+                                        <input id="url" type="url" name="url" required class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row m-3">
+                                    <label for="fecha" class="col-4 col-lg-12">Fecha: </label>
+                                    <div class="col-8 col-lg-12">
+                                        <input id="fecha" name="fecha" type="date" min="2014-01-01" max="2014-12-31"  class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row m-3">
+                                    <label for="hora" class="col-4 col-lg-12">Hora: </label>
+                                    <div class="col-8 col-lg-12">
+                                        <input id="hora" name="hora"  type="time" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row m-3">
+                                    <label for="dia" class="col-4 col-lg-12">Dia: </label>	
+                                    <div class="col-8 col-lg-12">			
+                                        <input id="dia" name="dia" type="datetime-local" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row m-3">
+                                    <label for="mes" class="col-4 col-lg-12">Mes: </label>
+                                    <div class="col-8 col-lg-12">
+                                        <input id="mes" name="mes" type="month" class="form-control"/>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </section>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <section id="derecha">
+
+                            <fieldset>
+                                <legend class="mx-4">Segunda parte del formulario</legend>
+
+                                <div class="form-group row m-3">
+                                    <label for="semana" class="col-4 col-lg-12">Semana: </label>
+                                    <div class="col-8 col-lg-12">
+                                        <input id="semana" name="semana" type="week" class="form-control">
+                                    </div>
+                                </div>
+                                <div class=" row m-3">
+                                    <label for="numero" class="col-4 col-lg-12">Número: </label>
+                                    <div class="col-8 col-lg-12">
+                                        <input id="numero" name="numero" type="number" min="0" max="100" class="form-control">
+                                    </div>
+                                </div>
+                                <div class=" row m-3">
+                                    <label for="rango" class="col-4 col-lg-12">Rango: </label>
+                                    <div class="col-8 col-lg-12">
+                                        <input id="rango" name="rango" type="range" min="0" max="20" step="2" >
+                                    </div>
+                                </div>
+                                <div class=" row m-3">
+                                    <label for="tfno" class="col-4 col-lg-12">Teléfono: </label>
+                                    <div class="col-8 col-lg-12">
+                                        <input id="tfno" name="tfno" type="tel" class="form-control">
+                                    </div>
+                                </div>
+                                <div class=" row m-3">
+                                    <label for="buscar" class="col-4 col-lg-12">Búsqueda: </label>
+                                    <div class="col-8 col-lg-12">
+                                        <input id="buscar" name="buscar" type="search" placeholder="Busca algo" class="form-control">
+                                    </div>
+                                </div>
+                                <div class=" row m-3">
+                                    <label for="color" class="col-4 col-lg-12">Color: </label>
+                                    <div class="col-8 col-lg-12">
+                                        <input id="color" name="color" type="color" >
+                                    </div>
+                                </div>
+                                <div class=" row m-3">
+                                    <label for="pass" class="col-4 col-lg-12">Contraseña: </label>
+                                    <div class="col-8 col-lg-12">
+                                        <input id="pass" name="pass" type="password" pattern="[0-9][A-Z]{3}" title="1 número y 3 letras mayusculas" class="form-control">
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </section>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                           
+                        <div class="text-center">
+                            <button type="button" class="btn btn-success">Enviar</button>
+                            <button type="button" class="btn btn-success">Cancelar</button>
+                        </div>
+                          
+                    </div>
+                </div>
+            </form> 
+        </div>
+        
+    </body>
+</html>
