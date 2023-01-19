@@ -1,0 +1,17 @@
+.dropdown-menu a:hover {
+  background-color: #8fe18e !important; }
+
+.gota { 
+  background: url("../img/gota-agua-mundo.jpeg") no-repeat center top;
+  background-size:cover;
+  background-attachment: fixed !important;  
+  }
+@media (min-width: 550px) {
+    .gota{
+        background: url("../img/gota-agua-mundo.jpeg") no-repeat left center;
+        background-size:contain;
+        background-position: 
+    }    
+}
+footer {
+  padding: 1%; }
