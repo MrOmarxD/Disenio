@@ -33,3 +33,9 @@ botonAceptarCookies.addEventListener('click', () => {
 
 	dataLayer.push({'event': 'cookies-aceptadas'});
 });
+
+// Cambiar de color 
+function color(){
+	document.getElementById("main-index").style.color = "white";
+	document.getElementById("main-index").style.backgroundColor = "black";
+}
