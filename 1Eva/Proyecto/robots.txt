@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /pages/preguntas.html
-Allow: /
-
-Sitemap: https://MrOmarxD.github.io/sitemap.xml
