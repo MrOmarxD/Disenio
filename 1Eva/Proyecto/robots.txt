@@ -1,0 +1,5 @@
+User-agent: * 
+Disallow: /portapapeles/contacto.html
+Allow: /
+
+Sitemap: https://ik11-diiw.ciudadjardinlhii.tech/sitemap.xml
