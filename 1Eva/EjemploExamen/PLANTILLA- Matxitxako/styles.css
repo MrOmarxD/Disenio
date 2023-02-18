@@ -1,0 +1,262 @@
+body{
+    width: 95%;
+    background-color: white;
+    margin: auto;
+    margin-top: 5%;
+    
+}
+h1,h2, h3{
+    font-family: 'Langar', cursive;
+    width: 100%;
+	color: #3c95c1;
+}
+
+h1{
+    font-size: 5vw;
+    margin-bottom: 5%;
+	text-shadow: 2px 2px 4px #69d5d7;
+}
+h2{
+    font-size: 3.5vw;
+    z-index: 1;
+	text-shadow: 2px 2px 4px #69d5d7;
+}
+p,a{
+    font-family: 'Montserrat', sans-serif;
+	font-size: 2vh;
+    font-weight: 800;
+    color:black;
+}
+
+
+article p{
+	font-weight: 200;
+	text-align:justify;
+	margin-top:1%;
+}
+header{
+    text-align: center;
+}
+main{
+    width: 95%;
+    margin: auto;
+    margin-top: 2%;
+	display:grid;
+    grid-template-columns: 1;
+    grid-auto-rows: max-content;
+}
+nav a{
+	margin-bottom: 2%;
+}
+
+#numero{
+    position:absolute;
+    top: 70%;
+    left:15%;
+    color:#272525;
+    font-size: 15vh;
+    display:none;
+}
+
+section{
+	margin-bottom: 10%;
+}
+
+header img{float:left; width:5%}
+
+#faro_foto, #rectangulo_azul{display:none;}
+/* GRID SMALL*/
+#faro{
+	grid-row-start: 1;
+}
+#Gaztelugatze{
+	grid-row-start: 2;
+}
+#Urdaibai{
+	grid-row-start: 3;
+}
+#Barco{
+	grid-row-start: 4;
+}
+#menu{
+	grid-row-start: 6;
+}
+/* GRID SMALL*/
+
+@media (min-width: 960px) {
+	main{
+		grid-template-columns: 7;
+		grid-gap: 2vh;
+        
+	}
+    #numero{display: inherit;}
+	
+	section{margin:0;}
+	/* GRID*/
+	#faro_foto, #rectangulo_azul{display:block;}
+	#rectangulo_azul{
+		grid-column-start:1;
+		grid-column-end:3;
+		grid-row-start:1;
+		background: linear-gradient(90deg, rgba(60,149,193,1) 10%, rgba(105,213,215,1) 44%);}
+
+	#faro_foto{
+		grid-column-start:5;
+		grid-column-end: 6;
+		grid-row-start: 1;
+		display:flex;
+		align-content: center;
+	}
+	#faro_foto img{
+		filter: sepia(.85) ;
+	}
+	#Urdaibai{
+		grid-column-start:6;
+		grid-column-end:7;
+		grid-row-start: 1;
+	}
+	#Gaztelugatxe{
+		grid-column-start:7;
+		grid-column-end:8;
+		grid-row-start:1;
+	}
+	#menu{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 4;
+		display: flex;
+		flex-wrap: wrap;
+		align-content:space-around;
+		height: 100%;
+	}
+	#faro{
+		grid-column-start:2 ;
+		grid-column-end:7;
+		grid-row-start: 2;
+		grid-row-end: 4;
+		width: 90%;
+		margin: auto;
+	}
+	#faro img{
+		border-radius: 50%;}
+	#Barco{
+		grid-column-start:7 ;
+		grid-column-end:8;
+		grid-row-start: 2;
+	}
+	#trainera{
+		grid-column-start:1 ;
+		grid-column-end:8;
+		grid-row-start: 4;
+		grid-row-end: 5;
+	}
+
+	#faro p{
+		column-count: 2;
+	}
+}/* FIN @MEDIA*/
+section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;;
+}
+section img{
+   width: 100%; 
+}
+h2:hover{
+	transition: all 0.5 ease;
+	text-align: end;
+	
+}
+nav a:hover{
+	transition: all 0.5 ease;
+	text-align: center; 
+	background: linear-gradient(90deg,rgba(60,149,193,1) 10% , rgba(105,213,215,1) 44%);
+}
+#Gaztelugatxe{
+    align-items: center;
+}
+a{
+	display: block;
+	width: 100%;
+	background: linear-gradient(90deg, rgba(105,213,215,1) 10%, rgba(60,149,193,1) 44%);
+	align-self: flex-end;
+	line-height: 3;
+	border-radius: 25px;
+	padding-left:5%;
+}
+#faro span{
+	font-style:italic;
+	text-shadow: 2px 2px 4px #69d5d7;
+}
+/* GIF*/
+#trainera{
+	background: url("imagenes/fondogif.png");
+	background-size:cover;
+	display:flex;
+	justify-content: flex-end;
+}
+#trainera img{
+	width:20%;
+	transform: rotate(-8deg);
+	animation-name:estropadak;
+    animation-duration: 6s;
+    overflow-x: hidden;
+    animation-iteration-count: 10;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+    
+    
+}
+	
+@keyframes estropadak
+{
+    10%{
+        transform: translateX(-10%) rotate(8deg) ;  
+    }
+    20%{
+       transform: translateX(-150%)rotate(-8deg);
+    }
+    30%{
+        transform: translateX(-80%)rotate(8deg));  
+    }
+    40%{
+       transform: translateX(-135%) rotate(-8deg) ;
+    }
+    50%{
+        transform:translateX(-250%)rotate(8deg) ;  
+    }
+    60%{transform: translateX(-300%)rotate(-8deg) ;}
+    70%{transform: translateX(-375%)rotate(8deg) ; }
+    80{transform: translateX(-410%)rotate(-8deg) ;}
+    90{transform: translateX(-500%)rotate(8deg) ; }
+    100{transform: translateX(-600%)rotate(-8deg);}
+    
+}
+
+
+  
+/* FIN ANIMACION GIF */
+
+
+/*FOOTER*/
+footer{
+    margin-top:2%;
+    width: 100%;
+	color:white;
+    background:linear-gradient(90deg, rgba(105,213,215,1) 10%, rgba(60,149,193,1) 44%); 
+	text-align:center;
+	
+}
+@media (min-width: 960px) {
+    footer{
+	    -moz-filter:drop-shadow(-5px -5px 2px #8e8e8e);
+        -webkit-filter:drop-shadow(-5px -5px 0px #8e8e8e);
+        filter:drop-shadow(-5px -5px 1px #8e8e8e); 
+    }
+
+}
+/* FIN FOOTER*/
+
+
