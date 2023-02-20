@@ -1,0 +1,22 @@
+@import 'variables';
+
+@mixin inicializar (){
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+@mixin fondoImg ($img){
+    background: #0d1424 url($img) repeat center top;
+    color: $color_1;
+	font-family: $font-family_1;
+	font-size: .8rem;
+}
+@mixin bg_color($color) {
+    @if ($color == $background-color_1) {
+        background-color: $background-color_1;
+    }
+    @else{
+        background-color: $color;
+    }
+}

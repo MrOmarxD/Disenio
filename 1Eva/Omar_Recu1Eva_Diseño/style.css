@@ -14,7 +14,7 @@ body{
 }
 header{
     grid-area: header;
-    height: 105%;
+    height: 110vh;
     background-image: url(./img/Header_Vertical.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -22,7 +22,7 @@ header{
     margin-top: 0;
     margin-bottom: 0;
     font-size: 10vh;
-    text-shadow: #5096ad 0.25rem 0.25rem;
+    text-shadow: #5096ad -0.25rem -0.25rem;
     color: #faf173;
 }
 header h1{
@@ -87,11 +87,11 @@ nav ul li:hover a{
     font-size: 125%;
     padding-right: 0.2em;
 }
+nav>button:active nav>ul>li{
+    display: block;
+}
 nav>button:active{
     display: none;
-}
-nav>button:active nav>ul>li{
-    display: inherit;
 }
 nav ul li a{
     color: #faf173;
