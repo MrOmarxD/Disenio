@@ -3,7 +3,6 @@
 
 * {
     @include inicializar();
-
 }
 body {
     @include fondoImg('../imagenes/bg.jpg');
